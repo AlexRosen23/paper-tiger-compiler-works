@@ -1,5 +1,10 @@
 # PAPER TIGER COMPILER WORKS
 
+> **Merged into THE IMPOSSIBLE COMPILER WORKS** (2026-11-13). This compiler, VM, reference interpreter, fuzzer and
+> IDE now live on, with their history, as the Compiler wing of a combined project next to a model checker: *write
+> it, compile it, prove nothing impossible can happen.* The combined project is being prepared for public release;
+> a link will be added here when it is public. This repository stays available as it is.
+
 *A language laboratory where programs become living diagrams.*
 
 PAPER TIGER is a complete, small programming-language implementation with a browser workshop that makes the
