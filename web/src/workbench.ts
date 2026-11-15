@@ -91,8 +91,13 @@ export interface Workbench {
 export const WB = createContext<Workbench | null>(null);
 export function useWB(): Workbench { const w = useContext(WB); if (!w) throw new Error('no workbench'); return w; }
 
+/** Static "Try it" demo build (VITE_DEMO=1): no server calls at all; save, history, fork and the Proof Cabinet need the full app. */
+export const DEMO = import.meta.env.VITE_DEMO === '1';
+export const DEMO_NOTE = 'needs the full app (run it locally)';
+
 // --- API client (loopback server; the IDE degrades to offline mode without it) --------------------
 export async function api<T>(path: string, init?: { method?: string; body?: unknown }): Promise<{ status: number; data: T }> {
+  if (DEMO) throw new Error('demo build: no server');
   const res = await fetch(path, { method: init?.method ?? 'GET', headers: init?.body !== undefined ? { 'content-type': 'application/json' } : undefined, body: init?.body !== undefined ? JSON.stringify(init.body) : undefined });
   const data = (await res.json().catch(() => null)) as T;
   return { status: res.status, data };
