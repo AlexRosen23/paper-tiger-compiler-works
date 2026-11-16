@@ -3,12 +3,12 @@
 **Retired.** PAPER TIGER COMPILER WORKS was merged into THE IMPOSSIBLE COMPILER WORKS on 2026-11-13. Its compiler,
 virtual machine, reference interpreter, fuzzer and browser IDE now live, with their history, as the Compiler wing of
 that combined project. This repository stays available as it was. This file is short on purpose: the full feature
-list is in the base repository's `FEATURES.md`.
+list is in the base repository's [`FEATURES.md`](https://github.com/AlexRosen23/impossible-compiler-works/blob/main/FEATURES.md).
 
 - **Repo:** AlexRosen23/paper-tiger-compiler-works (public) · **Folder:** `~/Desktop/Claude Projects/Paper Tiger Compiler Works`
 - **Status:** *Retired (absorbed into THE IMPOSSIBLE COMPILER WORKS, repo `impossible-compiler-works`)* · **Version:** 0.2.0 · **`main`:** `d15777b` (2026-11-15)
 - **Last updated:** 2026-11-15, written from the README, docs, tests and merged-PR history.
-- **Base repo:** [AlexRosen23/impossible-compiler-works](https://github.com/AlexRosen23/impossible-compiler-works). Its `FEATURES.md` was not on its `main` when this file was written (checked 2026-11-15), so its pull-request list may carry it.
+- **Base repo:** [AlexRosen23/impossible-compiler-works](https://github.com/AlexRosen23/impossible-compiler-works). Its `FEATURES.md` is at the repo root, linked above.
 
 ## Where each former feature lives now
 
