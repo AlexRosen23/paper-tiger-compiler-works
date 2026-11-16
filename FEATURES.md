@@ -53,7 +53,6 @@ npm run check      # typecheck, lint, tests, build
 npm run folio -- examples/03-orrery.folio --opt --ir --bc
 ```
 
-Environment names read by the app are listed in `docs/` and `server/`; none is needed for a default run.
 Hot-reload development: `npm run server` (API, 127.0.0.1:5580) and `npm run web` (IDE, 127.0.0.1:5581).
 
 ## Tests and evidence (as of the last commit)
