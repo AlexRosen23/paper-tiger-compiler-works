@@ -7,6 +7,16 @@
 
 *A language laboratory where programs become living diagrams.*
 
+In plain words: PAPER TIGER is a small programming language, FOLIO, with a complete compiler and virtual machine and a
+browser workshop that shows every stage as it works. You write a short program that describes a chart or diagram, and
+the workshop compiles it, runs it safely, and draws the result.
+
+**Who it is for:** people learning how compilers work, and engineers who want a compact, well-tested example of one.
+**How it works:** the compiler turns source into an intermediate form, optimizes it, and produces checked bytecode that a
+sandboxed VM runs. A separate, simple interpreter runs the same program as a referee, and the two must agree exactly.
+
+**Try it:** `npm install && npm start`, then open http://127.0.0.1:5580.
+
 PAPER TIGER is a complete, small programming-language implementation with a browser workshop that makes the
 machinery visible. Its language, **FOLIO**, is a typed DSL for data-driven generative diagrams and time-based
 visual stories. Everything between the source text and the pixels is real, testable code:
